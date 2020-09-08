@@ -9,7 +9,14 @@ directories:
       slug: tektoncd/pipeline
       tag: v0.15.1
     includePaths:
-    - release.yaml      
+    - release.yaml 
+  - path: github.com/tektoncd/triggers
+    githubRelease:
+      disableAutoChecksumValidation: true
+      slug: tektoncd/triggers
+      tag: v0.7.0
+    includePaths:
+    - release.yaml 
   - path: github.com/tektoncd/dashboard
     githubRelease:
       disableAutoChecksumValidation: true
@@ -17,4 +24,3 @@ directories:
       tag: v0.9.0
     includePaths:
     - tekton-dashboard-release.yaml
-

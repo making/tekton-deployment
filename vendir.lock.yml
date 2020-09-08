@@ -5,6 +5,9 @@ directories:
       url: https://api.github.com/repos/tektoncd/pipeline/releases/29362469
     path: github.com/tektoncd/pipeline
   - githubRelease:
+      url: https://api.github.com/repos/tektoncd/triggers/releases/29172094
+    path: github.com/tektoncd/triggers
+  - githubRelease:
       url: https://api.github.com/repos/tektoncd/dashboard/releases/29995619
     path: github.com/tektoncd/dashboard
   path: vendor
