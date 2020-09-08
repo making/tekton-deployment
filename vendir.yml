@@ -1,0 +1,20 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: vendor
+  contents:
+  - path: github.com/tektoncd/pipeline
+    githubRelease:
+      disableAutoChecksumValidation: true
+      slug: tektoncd/pipeline
+      tag: v0.15.1
+    includePaths:
+    - release.yaml      
+  - path: github.com/tektoncd/dashboard
+    githubRelease:
+      disableAutoChecksumValidation: true
+      slug: tektoncd/dashboard
+      tag: v0.9.0
+    includePaths:
+    - tekton-dashboard-release.yaml
+
